@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display:flex ;
+    padding: 20px;
+    box-shadow: 0px 4px 10px 0px #2633451A;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu_options {
+    display: flex;
+}
+
+.option {
+    color: #185a7d;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.content_main,
+.content_projects {
+    margin-top: 70px;
+    margin-inline: 15.5rem;
+}
+
+.container{
+    width: 100%;
+}
+
+.container_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+
+.container_main > .person_image{
+    width: 430px;
+}
+
+.welcome_message > p{
+    width: 450px;
+}
+
+.person{
+    border-radius: 50%;
+    width: 350px;
+}
+
+.welcome_message > h1,
+button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #185a7d;
+}
+
+.welcome_message > p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+button{
+    background-color: white;
+    color: #185a7d;
+    padding: 0.5rem;
+    border-radius: 16px;
+    border: 2px solid #185a7d;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background-color: #185a7d;
+    color: white;
+    transition: 0.3s  ease;
+}
+
+.container_projects{
+    margin-top: 10rem;
+}
+
+.all_projects {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #185a7d;
+}
+
+#image_projects {
+    width: 300px;
+    margin-right: 5rem;
+    height: 300px;
+}
+
+.previous_or_next_button {
+    width: auto;
+    margin-inline: 0.25rem;
+    padding: 0.3rem 0.6rem;
+}
+
+.buttons_show_projects {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #185a7d;
+    color: white;
+    height: 75px;
+}
+
+.socials,
+.developed_by {
+    display: flex;
+    justify-content: center;
+}
+
+.socials > a {
+    color: white;
+    margin-inline: 5px;
+}
