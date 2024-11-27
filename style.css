@@ -21,6 +21,11 @@ a {
     display: flex;
 }
 
+.menu_options > a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
 .option {
     color: #185a7d;
     margin-right: 30px;
@@ -28,7 +33,8 @@ a {
 }
 
 .content_main,
-.content_projects {
+.content_projects,
+.content_contact {
     margin-top: 70px;
     margin-inline: 15.5rem;
 }
@@ -67,6 +73,30 @@ button{
 .welcome_message > p{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+}
+
+.header_contact {
+    display: flex;
+    justify-content: center;
+}
+
+.show_contact {
+    margin-left: 7.5rem;
+}
+
+.linkedin > a > div,
+.email > div,
+.phone > div {
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+
+.linkedin > a,
+.email,
+.phone {
+    display: flex;
+    font-size: 20px;
+    color: #185a7d;
 }
 
 button{
